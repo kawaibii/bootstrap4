@@ -1,0 +1,69 @@
+body{
+    width: 100%;
+    height: 2000px;
+    position: relative;
+}
+.menu{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    background: red;
+    color: #636b6f;
+}
+.header{
+    position: fixed;
+    height: 100%;
+    width: 100px;
+    float: left;
+    background: red;
+}
+
+.ggg {
+    height: 600px;
+    width: 600px;
+    background-color: red;
+    padding: auto;
+    font-size: 20px;
+    color: aqua;
+
+    text-align: center;
+    border:solid;
+    border-width: 20px;
+    -webkit-box-sizing: border-box;
+    position: static;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.demo{
+
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 100px;
+
+
+}
+#list{
+    list-style: none;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background: aqua;
+    color: red;
+    margin-right: 20px;
+    text-align: center;
+    padding: 10px;
+}
+#list:hover{
+    background: red;
+    color: aqua;
+    border: solid;
+    font-size: 30px;
+}
+.footer{
+    position: static;
+    background: aquamarine;
+    color: white;
+    height: 100px;
+    width: 100%;
+    margin-left: 100px;
+}
